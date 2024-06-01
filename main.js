@@ -6103,7 +6103,6 @@ const server = (0, http_1.createServer)((req, resp) => {
         else {
             resp.writeHead(200, {
                 'content-type': 'text/html; charset=utf-8',
-                'WWW-Authenticate': 'Basic',
             });
             resp.write('Hello World!');
             resp.end();
